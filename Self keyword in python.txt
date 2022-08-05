@@ -1,0 +1,25 @@
+Self keyword in python
+used in
+Parent class variabes
+constructors
+Methods(Function)
+
+
+class Student:
+    # constructor
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    # self points to the current object
+    def show(self):
+        # access instance variable using self
+        print(self.name, self.age)
+
+# creating first object
+sanya = Student('sanya', 12)
+sanya.show()
+
+# creating Second object
+Riya = Student('Riya', 13)
+Riya.show()
