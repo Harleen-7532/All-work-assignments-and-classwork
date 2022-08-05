@@ -1,4 +1,4 @@
-Self keyword in python
+Super keyword in python
 used in
 Parent class variabes
 constructors
